@@ -1,4 +1,70 @@
-# HERRAMIENTAS_DESARROLLO
-Herramientas de Desarrollo- Sección 13160
+# Instructivo para Clonar y Trabajar en el Repositorio de Herramientas de Desarrollo
 
---- ```markdown # 🛠️ Herramientas de Desarrollo Este repositorio contiene recursos y ejercicios para la asignatura de **Herramientas de Desarrollo**. Cada grupo de trabajo debe utilizar su propia rama para realizar sus actividades y subir sus avances. --- ## 🔗 Repositorio URL del repositorio: https://github.com/javierjaramillo03ster-wq/HERRAMIENTAS_DESARROLLO --- ## 📋 Instrucciones para los estudiantes ### 1️⃣ Clonar el repositorio Abre tu terminal y ejecuta: ```bash git clone https://github.com/javierjaramillo03ster-wq/HERRAMIENTAS_DESARROLLO.git cd HERRAMIENTAS_DESARROLLO ``` --- ### 2️⃣ Cambiar a tu rama de grupo Cada grupo tiene su propia rama: `Grupo-1`, `Grupo-2`, `Grupo-3`, `Grupo-4`. Ejemplo para el Grupo 2: ```bash git checkout Grupo-2 ``` > ✅ **Importante:** No trabajes en la rama `main`. Siempre usa tu rama de grupo. --- ### 3️⃣ Realizar cambios en tu rama Haz tus modificaciones en los archivos correspondientes. Luego guarda y prepara los cambios: ```bash git add . git commit -m "Descripción clara de los cambios realizados" ``` --- ### 4️⃣ Subir tus cambios a GitHub Asegúrate de estar en tu rama de grupo antes de subir: ```bash git push origin Grupo-2 ``` --- ### ✅ Buenas prácticas - Siempre trabaja en tu **rama de grupo**. - Escribe mensajes de commit **claros y descriptivos**. - No hagas `merge` ni `push` a la rama `main`. - Si tienes dudas, consulta con el docente antes de subir cambios importantes. --- ``` 
+Este repositorio contiene ramas específicas para cada grupo de trabajo. A continuación se detallan los pasos que cada grupo debe seguir para clonar el repositorio, trabajar en su rama correspondiente y subir sus cambios sin afectar la rama principal.
+
+## Repositorio
+https://github.com/javierjaramillo03ster-wq/HERRAMIENTAS_DESARROLLO.git
+
+---
+
+## Grupo-1
+1. Clonar el repositorio:
+   git clone https://github.com/javierjaramillo03ster-wq/HERRAMIENTAS_DESARROLLO.git
+   cd HERRAMIENTAS_DESARROLLO
+2. Cambiar a la rama del grupo:
+   git checkout Grupo-1
+3. Realizar tus cambios en los archivos correspondientes.
+4. Agregar los archivos modificados:
+   git add .
+5. Hacer commit de los cambios:
+   git commit -m "Cambios realizados por Grupo-1"
+6. Subir los cambios a la rama del grupo:
+   git push origin Grupo-1
+
+---
+
+## Grupo-2
+1. Clonar el repositorio:
+   git clone https://github.com/javierjaramillo03ster-wq/HERRAMIENTAS_DESARROLLO.git
+   cd HERRAMIENTAS_DESARROLLO
+2. Cambiar a la rama del grupo:
+   git checkout Grupo-2
+3. Realizar tus cambios en los archivos correspondientes.
+4. Agregar los archivos modificados:
+   git add .
+5. Hacer commit de los cambios:
+   git commit -m "Cambios realizados por Grupo-2"
+6. Subir los cambios a la rama del grupo:
+   git push origin Grupo-2
+
+---
+
+## Grupo-3
+1. Clonar el repositorio:
+   git clone https://github.com/javierjaramillo03ster-wq/HERRAMIENTAS_DESARROLLO.git
+   cd HERRAMIENTAS_DESARROLLO
+2. Cambiar a la rama del grupo:
+   git checkout Grupo-3
+3. Realizar tus cambios en los archivos correspondientes.
+4. Agregar los archivos modificados:
+   git add .
+5. Hacer commit de los cambios:
+   git commit -m "Cambios realizados por Grupo-3"
+6. Subir los cambios a la rama del grupo:
+   git push origin Grupo-3
+
+---
+
+## Grupo-4
+1. Clonar el repositorio:
+   git clone https://github.com/javierjaramillo03ster-wq/HERRAMIENTAS_DESARROLLO.git
+   cd HERRAMIENTAS_DESARROLLO
+2. Cambiar a la rama del grupo:
+   git checkout Grupo-4
+3. Realizar tus cambios en los archivos correspondientes.
+4. Agregar los archivos modificados:
+   git add .
+5. Hacer commit de los cambios:
+   git commit -m "Cambios realizados por Grupo-4"
+6. Subir los cambios a la rama del grupo:
+   git push origin Grupo-4
